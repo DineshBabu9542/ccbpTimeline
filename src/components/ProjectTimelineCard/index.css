@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.project-img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.project-title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+}
+.visit-an-ele {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-fill-container {
+  display: flex;
+}
+
+.fill-calender {
+  margin-top: 16px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-name-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.duration {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+}
